@@ -1,7 +1,7 @@
-const WelcomeMsg = ({onGetPostsClick}) => {
+const WelcomeMsg = () => {
     return <center className="welcome-message">
         <h1>There are No posts</h1>
-        <button type="button" className="btn btn-primary" onClick={onGetPostsClick}>Get Posts from Server</button>
+        <button type="button" className="btn btn-primary" >Get Posts from Server</button>
     </center>
 }
 
